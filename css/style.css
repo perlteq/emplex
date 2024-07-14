@@ -1,0 +1,313 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    /* background: linear-gradient(to bottom,white,#b597df); */
+    height:100%;
+}
+.container{
+    display:flex;
+    width:70%;
+    height: 98vh;
+    margin: 6px auto;
+    box-shadow: 0px 0px 4px 3px #d3cdcd;
+    background-size: cover;
+}
+#show{
+    display:none;
+}
+.left-view{
+    width: 50%;
+    height: 98vh;
+    background: url('../image/signup-image.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: white;
+   
+}
+.right-view{
+    width: 50%;
+    height: 98vh;
+   background-color: #fafafa;
+   
+}
+.right-view .tit h4{
+    text-align: center;
+    color:#581cad;
+    font-family: Embassy BT;
+    font-size: 50px;
+    padding-top: 2px;
+}
+.right-view .tit p{
+    position: relative;
+    top:-25px;
+    text-align: center;
+    color:#581cad;
+    font-family:Gadugi;
+    font-size: 35px;
+    display: block;
+}
+.form-class{
+    margin: 1px auto;
+    position: relative;
+    top:-25px;
+}
+.right-view .input-class{
+    width:55%;
+    display: inline-block;
+    height:60px;
+    margin:20px auto;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0px 0px 30px -0.2px #7f44d1;
+    background-color:whitesmoke;
+   
+}
+h2{
+    width: 50%;
+    text-align: center;
+    border-bottom: 4px solid #581cad;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: #581cad;
+    font-family: ebrima;
+}
+h2 span{
+    background: #faefef;
+    padding: 0 10px;
+    border-radius: 40%;
+}
+.right-view .button-class1{
+    height:60px;
+    margin:10px auto;
+    width: 59%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -0.2px #581cad;
+    outline: none;
+    background:linear-gradient(to right,#40057b,#6200f3,#40057b) ;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+
+    
+}
+
+.right-view .button-class2{
+    height:60px;
+    margin:10px auto;
+    width: 59%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px -0.2px #fe9810;
+    outline: none;
+    background:#fe9810;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#f-password{
+    background: none;
+    font-size: medium;
+    position: relative;
+    left:54%;
+}
+
+/*login page style*/
+
+.container1{
+    width:60%;
+    height: 88vh;
+    margin: 20px auto;
+    box-shadow: 0px 0px 4px 3px #d3cdcd;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: white;
+}
+.whole-container{
+    display: flex;
+    width:90%;
+    height: 78vh;
+    margin: 0px auto;
+
+}
+.form-class2{
+    position: relative;
+    top:10vh;
+}
+.view2{
+    width: 60%;
+    height: 68vh;
+    background: url('../image/login-image.png');
+    background-size: 670px;
+    background-repeat: no-repeat;
+    background-position-x:100%;
+    background-position-y:-60px;
+    background-color: white;
+   
+}
+.view1{
+    /* padding:10px auto; */
+    align-items: center;
+    width: 60%;
+    height: 58vh;
+    background-color: #e9e7e7;
+    margin: 50px auto;
+   
+}
+
+.view1 .button-class1{
+    height:60px;
+    margin:10px auto;
+    width: 75%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -0.2px #581cad;
+    outline: none;
+    background:linear-gradient(to right,#40057b,#6200f3,#40057b) ;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+
+    
+}
+
+.view1 .button-class2{
+    height:60px;
+    margin:20px auto;
+    width: 75%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px -0.2px #fe9810;
+    outline: none;
+    background:#f5cc96;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.view1 h4{
+    text-align: center;
+    color:#581cad;
+    font-family: Embassy BT;
+    font-size: 50px;
+    padding-top: 2px;
+}
+#f-password2{
+    background: none;
+    font-size: medium;
+    position: relative;
+    left:48%;
+    color:#40057b;
+    padding-top: 12px;
+}
+.form-class2 h4{
+    font-family: ebrima;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.title-header h4{
+    text-align: center;
+    color:#581cad;
+    font-family: Embassy BT;
+    font-size: 50px;
+    padding-top: 2px;
+    /* background:linear-gradient(to right,#40057b,white,#40057b) ; */
+   
+}
+
+
+
+/*mobile view*/
+@media (max-width:801px)  {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .container,.container1{
+        display: block;
+        margin:0 auto;
+        box-shadow: none;
+        width:90%;
+  
+    }
+    #show{
+        display:block;
+        text-align: center;
+        color:#581cad;
+        font-family: Embassy BT;
+        font-size: 50px;
+        padding-top: 2px;
+        /* background:linear-gradient(to right,rgb(223, 221, 215),white,rgb(223, 221, 215)) ; */
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+    #show p{
+        font-family: ebrima;
+        text-align: center;
+    }
+
+    .left-view{
+        height:40vh;
+        width: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 400px;
+
+    }
+    .right-view{
+        height: 85vh;
+        width: 100%;
+        border-radius: 30px;
+        margin-top: 30px;
+        background:rgb(223, 221, 215)
+
+    }
+ 
+    .right-view .input-class{
+        width:70%;
+    }
+    .right-view .button-class1{
+        width:70%;
+    }
+    .right-view .button-class2{
+        width:70%;
+    }
+    .tit{
+    display: block;
+    padding-top:130px;
+    }
+    .right-view .tit h4{
+    display: none;
+    }
+    .right-view .tit p{
+    display: none;
+    }
+
+    /*mobile view for login page*/
+    .whole-container{
+        display: block;
+    }
+    .title-header h4{
+        background: none;
+    }
+    .view1{
+        width:90%;
+        border-radius: 20px;
+        /* padding-top:10px; */
+        height: 60vh;
+        margin:0px auto;
+        overflow: hidden;
+    }
+    .view2{
+        width:100%;
+        height:40vh;
+        margin-top: 50px;
+        /* background-position: center; */
+        background-position-x:-100px;
+        background-position-y:center;  
+        background-size:cover;
+    }
+}
